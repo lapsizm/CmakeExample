@@ -20,6 +20,7 @@ add_executable (demo demo/main.cpp)
 
 target_link_libraries (demo glog::glog)
 
+
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
